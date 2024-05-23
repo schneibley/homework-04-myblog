@@ -8,7 +8,7 @@ const blogData = JSON.parse(localStorage.getItem("blogData")) || []
 submitEl.addEventListener('click', submitHandler)
 
 function submitHandler (event){
-event.preventDefault()
+    event.preventDefault()
 const newBlogPost = {
     username:usernameEl.value,
     title:titleEl.value,
@@ -17,4 +17,14 @@ const newBlogPost = {
 }
 blogData.push(newBlogPost)
 localStorage.setItem("blogData", JSON.stringify(blogData))
+
+window.location.href = "blog.html";
+
+clearForm();
+}
+
+function clearForm() {
+    usernameEl.value = "";
+    titleEl.value = "";
+    contentEl.value = "";
 }

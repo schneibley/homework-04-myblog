@@ -1,0 +1,99 @@
+body {
+    background-color: lightblue;
+    color: black;
+}
+
+body.dark-mode{
+    background-color: #555;
+    color: white;
+}
+
+.body {
+    background-color: rgb(109, 165, 184);
+}
+
+.body.dark-mode{
+    background-color: black;
+    color: white;
+}
+header {
+    background-color: lightblue;
+    color: black;
+}
+.dark-mode header{
+    background-color:#555;
+    color:white;
+}
+
+.header {
+    background-color: lightblue;
+    color: #fff;
+}
+
+.dark-mode .header{
+    background-color: #555;
+}
+
+#display {
+    background-color: blue;
+    color: white;
+}
+
+.dark-mode #display {
+    background-color: black;
+}
+
+#formContainer {
+    color:black;
+    background-color: lightblue;
+}
+
+.dark-mode #formContainer{
+    color:white;
+    flex: 1;
+    padding-left: 10px;
+    background-color: #555;
+}
+
+.blog-post {
+background-color: lightblue;
+}
+
+.dark-mode .blog-post {
+    border:white solid 1px;
+    background-color: #555;
+}
+#toggleButton,
+#backButton {
+    background-color: blue;
+    color: white;
+}
+
+.dark-mode #toggleButton,
+#backButton {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: lightblue;
+    color:black;
+   
+}
+
+.dark-mode footer {
+    background-color: #333;
+    color: #fff;
+}
+a {
+    background-color: blue; 
+    color: white; 
+    padding: 5px 10px; 
+    text-decoration: none; 
+}
+.dark-mode a {
+    background-color: black;
+}
+a:hover {
+    background-color: #333; 
+}
