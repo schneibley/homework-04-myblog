@@ -97,3 +97,17 @@ a {
 a:hover {
     background-color: #333; 
 }
+
+@media only screen and (max-width: 768px) {
+    .Container {
+        flex-direction: column; 
+    }
+
+    #formContainer {
+        padding-left: 0; 
+    }
+
+    form {
+        max-width: 100%;
+    }
+}
