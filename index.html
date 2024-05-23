@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Post</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+</head>
+
+<body>
+    
+    <header class="header">
+        <button id="display">Display Mode</button>
+    </header>
+
+    <main>
+        <section class="Container">
+            <div id="imageContainer">
+                <img src="assets/images/blog-image.jpg" alt="word cloud centered around the word blog" id="blogImg">
+            </div>
+            <form id="formContainer">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="title">Title:</label><br>
+                <input type="text" name="title" id="title" required><br><br>
+                <label for="content">Content:</label><br>
+                <textarea name="content" id="content" rows="10" required></textarea><br>
+                <button type="submit" id="submit">Post</button>
+            </form>
+            
+        </section>
+    </main>
+
+    <script src="assets/js/logic.js"></script>
+    <script src="assets/js/form.js"></script>
+
+</body>
+
+</html>
